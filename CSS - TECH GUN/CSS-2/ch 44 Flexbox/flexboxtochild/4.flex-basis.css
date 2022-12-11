@@ -1,0 +1,33 @@
+.flex-container{
+    background-color: red;
+    display: flex;
+    /* flex-wrap: wrap; */
+  
+
+
+}
+.flex-child{
+background-color: wheat;
+margin:20px;
+padding:20px;
+width:100px;
+text-align: center;
+
+}
+/*flex-basis: initial width kitna hai */
+
+/* #One{
+
+
+} */
+#Two{
+    
+    flex-basis: 300px;
+
+    
+}
+/* #Three{
+ 
+
+} */
+

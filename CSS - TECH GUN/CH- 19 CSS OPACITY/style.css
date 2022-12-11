@@ -1,0 +1,24 @@
+#color-box{
+    background-color: green;
+    height:200px;
+    width:500px;
+    /* margin-bottom: 30px; */
+    /* opacity: 0.5; */
+}
+img:hover{
+    opacity:0.8;
+    border:2px solid black;
+}
+#red-box{
+    height: 300px;
+    width: 200px;;
+    background-color: red;
+    margin-top: -100px;
+    opacity: 0.2;
+    margin-bottom: 10px;
+}
+p:hover{
+font-size: 20px;
+font-style :italic;
+opacity:0.5;
+}

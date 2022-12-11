@@ -1,0 +1,40 @@
+1.image editor:
+(A)online photoshop
+(B)pixlr.com
+
+2.Dummy image
+(A) dummy image generator
+
+3.Dummy text
+lorem ipsum
+
+4.color selector:
+(A)flatuicolors.com
+(b)flatcolorsui.com
+(b)colors.co
+
+5.favicon generator
+(A)realfavicongenerator.net
+
+6.Gradient generator
+(a)cssgradient.io
+
+7.Boxshadow generator and boredrradius
+(a)cssmatic.com
+
+8.css animation generator
+(a)cssanimate.com
+
+9.online html css js
+(A)fiddle.com
+
+10.code pen
+
+11. free icons
+(A)freconix.com
+click start copy js script
+paste in html file
+search icon click and copy code
+you can also edit this icon using css
+using class in code from website
+

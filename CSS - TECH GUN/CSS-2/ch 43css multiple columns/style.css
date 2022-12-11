@@ -1,0 +1,17 @@
+div{
+    column-count: 3;
+    column-gap: 50px;
+    /* column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color:red; */
+    column-rule: 1px solid red;
+    column-width: 300px;
+    /* //upar humne 300px ka width diya hai to total hua teeno ka 900
+    aur column gap milake hua 100(50+50) toh total hua 1000px
+    to jaise hi 1000 pixel se kam hoga  screen width waise hi columns kam ho jaenge 
+    to matlab hum min width set kar rahe hai ki agar 100px ya usse jyada px hai to  3 col visible hoga otherwise col less hote jaenge jaise jaise screen chhoti hoti jaegi*/
+    
+}
+h1{
+    column-span:all;
+}

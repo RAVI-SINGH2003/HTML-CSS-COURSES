@@ -1,0 +1,12 @@
+#overflow{
+    background-color:aqua;
+    border: 1px solid red;
+    width:50vw;
+    height:300px;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll;*/ /*this add vertical and horizontal scroll when content overflows or not */
+     overflow:auto; /*this is best add horizontal and vertical scroll bar 
+     only when contant overflows  */
+
+}

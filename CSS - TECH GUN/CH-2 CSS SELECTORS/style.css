@@ -1,0 +1,28 @@
+/* SELECTORS IN CSS = ID SELECTOR ,CLASS SELECTOR ,ELEMENT SELECTOR
+PRIORITY IN CSS SELECTORS = ID -> CLASS -> ELEMENT 
+WHEN MORE THAN ONE TYPE OF SELECTORS IS USED HAVING SAME SAME PROPERTY SO LAST ONE WILL TAKE THE ACTION
+*/
+#h{
+    /* font-size:60px; */
+    color:blue;
+    
+}
+h1{
+    color:red;
+}
+/* #p3{
+    color:blue;
+} */
+.green-text
+{
+    color:green;
+}
+#h{
+    /* font-size:60px; */
+    color:yellow;
+    
+}
+
+/* .underline-h{
+    text-decoration:underline;
+} */

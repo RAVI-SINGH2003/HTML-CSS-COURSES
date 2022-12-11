@@ -1,0 +1,37 @@
+.flex-container{
+    background-color: red;
+    display: flex;
+    height:400px;
+    justify-content: center;
+  
+  
+
+
+}
+.flex-child{
+background-color: wheat;
+margin:20px;
+padding:20px;
+width:100px;
+text-align: center;
+
+}
+/* Notes
+agar mai chahta hu one wala upar rahe two wala center and three wala niche  */
+
+#One{
+
+align-self: flex-start;
+}
+
+#Two{
+
+align-self: center;
+
+}
+#Three{
+   align-self: flex-end;
+ 
+
+}
+

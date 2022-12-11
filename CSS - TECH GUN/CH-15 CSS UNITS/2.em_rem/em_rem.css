@@ -1,0 +1,19 @@
+html{
+   font-size: 12px;
+}
+#parent{
+   /* font-size:30px; */
+   font-size:4rem
+}
+ #child {
+   
+   font-size:2em;
+      
+ }
+ #secondchild{
+    font-size: 2rem
+
+ }
+ #thirdchild{
+    font-size:5vw; /*chrome window ko bada chhota karne parr font-size bhi bada chhota hoga kyunki viewport width use kiya hai na */
+ }

@@ -1,0 +1,22 @@
+.flex-container{
+    background-color: red;
+    display: flex;
+    flex-flow: row wrap ;  
+    flex-wrap: wrap;
+    height: 70vh;
+
+    /* to center a div do following:- */
+    justify-content: center;
+    align-items:center;
+   
+
+   
+
+}
+.flex-child{
+background-color: wheat;
+margin:20px;
+padding:20px;
+width:100px;
+text-align: center;
+}

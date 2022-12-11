@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Advanced selector</title>
+</head>
+<body>
+    <div>
+        <h1>Selector</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus porro ullam quos molestias praesentium pariatur atque et modi quis harum repellendus maiores similique eligendi incidunt id voluptatibus voluptatem tempora, illum quae beatae in. Corrupti animi qui iure quasi minima odio aliquid? Dolorem tenetur nesciunt, minima nemo non obcaecati consectetur sed quod in voluptatibus numquam molestiae, cumque totam! Perferendis beatae ullam ratione blanditiis commodi repudiandae facilis eaque. Maiores inventore laboriosam eos, rem modi dicta! Harum alias similique architecto sequi quam iusto, veritatis, illum iste molestiae maiores culpa, asperiores qui! Doloremque, reiciendis explicabo labore optio soluta ullam consequuntur repudiandae atque ex saepe, eius provident sequi, laudantiamus officiis pariatur distinctio impedit sapiente asperint et nisi odio animi iure, at, molestiae laboriosam enim fuga obcaecati totam architecto dolorum dolore dolor non ducimus cumque consectetur ipsam alias. Cupiditate, ipsa, molestiae nisi non quaerat quisquam eius ducimus iure corporis delectus vitae placeat tempore odit iste quae blanditiis ex minima!</p>
+        <ul>
+            <li>list 1</li>
+            <li id="list2">list 2</li>
+            <li>list 3</li>
+            <li>list 4</li>
+            <li class="list5">list 5 <a href="https://www.google.com">Google</a></li>
+            <li class="list5">list 6</li>
+            <li>list 7 <a href="">Yahoo</a></li>
+            <li>list 8</li>
+            <li>list 5</li>
+    
+        </ul>
+        <a href="">direct child</a>
+    </div>
+    <p>gghh</p>
+    <a href=""> outside link</a>
+    
+</body>
+</html>
+<!-- NOtes:-
+1.Element selector
+h1{
+    
+}
+
+2.id selector
+#heading{
+
+}
+
+3.class selector
+.red{
+
+}
+
+4.Element selector
+h1{
+
+}
+
+5.pseudo class pseudo element
+
+a:hover{
+
+}
+
+p::first-line{
+
+}
+
+//ADVANCED SELECTORS :-
+
+6.Attribute selector
+BELOW CODE MEANS PURE HTML ME AISA ANCHOR TAG RED HOGA JISKA HREF example.com hai
+a[href="https://www.example.com"]{
+    color:red;
+}
+//highly used in form as below :-
+form[input="text"]{
+
+}
+7.universal selector:
+
+ *{
+     color:red;
+ }
+
+ 8.Combinator SELECTORS  :
+
+ (a) Descendant combinatory (child at any stage) :
+ .red-p span{
+     color:green;
+ }
+ 
+ (b) Child combinatory (Direct Child) :
+ .red-p > span{
+     color:green;
+ }
+(C)Adjacent combinatory (right after sibling )
+sibling:elements at same level
+.red-p +h1{
+    color:green
+}
+(d) General combinatory (all sibling) :
+.red-p~ h1{
+    color:green;
+}
+(e) ADD SELECTORS
+.red-p ,h1{
+
+}
+ -->
+

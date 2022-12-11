@@ -1,0 +1,12 @@
+ul{
+    list-style-type: none;
+    list-style-image: url('photos/photo.png');
+    list-style-position: inside;
+}
+ol{
+    list-style-type:decimal-leading-zero;
+}
+li{
+    border: 1px solid black;
+ 
+}

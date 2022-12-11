@@ -1,0 +1,17 @@
+
+#fun1{
+background-color: teal;
+height:200px;
+/* width: 60%; */
+width: calc(100% - 200px);
+}
+a{
+
+    background-color: blueviolet;
+    padding: 10px 30px;
+    margin:10px;
+    color:white;
+    text-decoration: none;
+  
+   
+}

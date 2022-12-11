@@ -1,0 +1,15 @@
+/* OVERFLOW PARAGRAPH */
+#p1{
+   border:1px solid red; 
+}
+#img1{
+    float:right;
+}
+/* CORRECTED PARAGRAPH */
+#p2{
+   border:1px solid red; 
+   overflow: auto;/*this is done so that image does not overflow out of p  */
+}
+#img2{
+    float:right;
+}

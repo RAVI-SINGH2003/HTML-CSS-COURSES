@@ -1,0 +1,14 @@
+@font-face{
+    font-family: "ravi singh";
+    src: url('fonts/Aclonica.ttf');
+
+}
+h1{
+
+    font-family: "ravi singh";
+}
+p{
+    
+    font-family: "ravi singh" ,  'Poppins', sans-serif;
+    font:italic small-caps 600 20px "ravi singh" /*font-style font-variant font-weight font-size font-family*/
+}

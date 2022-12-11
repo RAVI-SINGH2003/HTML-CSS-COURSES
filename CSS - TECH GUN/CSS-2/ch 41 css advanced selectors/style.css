@@ -1,0 +1,28 @@
+/* a[href="https://www.google.com"]{
+    color:red
+} */
+
+/* *{
+    border:1px solid red;
+   
+} */
+
+/* ul li{
+color:red;
+} */
+
+/* div >a{
+    color:red;
+} */
+
+/* div + p{
+    color:red;
+}  */
+
+/* div~a{
+    color:red;
+} */
+
+/* a , h1{
+    color:red;
+} */

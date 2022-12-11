@@ -1,0 +1,15 @@
+.flex-container{
+    background-color: red;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: row wrap-reverse ;  /*more than one shortcut for direction and wrap-type */
+}
+.flex-child{
+background-color: wheat;
+margin:20px;
+padding:20px;
+width:100px;
+text-align: center;
+}

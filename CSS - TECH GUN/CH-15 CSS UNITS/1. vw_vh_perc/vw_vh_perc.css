@@ -1,0 +1,13 @@
+#parent{
+ border:1px solid red;
+ /* width:800px; */
+ height:50vh;
+ width:50vw;
+}
+#child{
+
+    border:1px solid blue;
+   width: 50%;
+   height:50%;
+    
+}

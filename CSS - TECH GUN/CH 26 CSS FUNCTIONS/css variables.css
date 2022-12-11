@@ -1,0 +1,19 @@
+:root{
+    /*css variables name could be anything*/
+    --primary-color:green; 
+    --btn-color: gray;
+    --text-color:mintcream;
+}
+#fun1{
+background-color: var(--primary-color);
+height:200px;
+width: calc(100% - 200px);
+}
+a{
+
+    padding: 10px 30px;
+    margin:20px;
+    text-decoration: none;
+    background-color: var(--btn-color);
+    color:var(--text-color);
+}

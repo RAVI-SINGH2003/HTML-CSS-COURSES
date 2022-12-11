@@ -1,0 +1,12 @@
+#div1{
+    height:500px;
+    /* width:100px; */
+    border: 1px solid  red;
+    background-image: linear-gradient(green,blue);
+    background-image: linear-gradient(green,blue,red);
+    background-image: linear-gradient(to right,green,blue,red);
+    background-image: linear-gradient(190deg,green ,blue ,red );
+    background-image: radial-gradient(green,blue,red);
+    background-image: radial-gradient(circle,green,blue,red);
+    background-image: radial-gradient(circle,green 20%,blue 30%,red 50%);
+}

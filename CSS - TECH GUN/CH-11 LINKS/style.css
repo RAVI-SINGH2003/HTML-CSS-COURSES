@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+
+}
+/* states of link :-  */
+a:link{
+color: yellowgreen;
+}
+a:visited{
+color: black;
+
+}
+/* hover should always be below link and visited */
+a:hover{
+color:orange;
+}
+/* active should be below hover always */
+a:active{
+color:red;
+}

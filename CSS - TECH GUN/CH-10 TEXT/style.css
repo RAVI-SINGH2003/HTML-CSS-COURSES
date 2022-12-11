@@ -1,0 +1,41 @@
+#text{
+    width:510px;
+    border: 1px solid red;
+
+    color: blue;
+
+    /* text-align: right; */
+    /* text-align: left; */
+    /* text-align: center; */
+     /* text-align: justify; */
+
+    /* direction:rtl; */
+    
+    /* text-decoration:underline; */
+    /* text-decoration:line-through; */
+
+    
+    /* text-transform:uppercase; */
+    /* text-transform:lowercase; */
+    /* text-transform:capitalize;  */
+    
+    /* line-height: 30px; */
+
+    /* text-indent: 50px; */
+
+    /* letter-spacing: 10px; */
+
+     /* word-spacing: 10px; */
+
+     /* white-space:nowrap; */
+     /* white-space:pre; */
+  
+     
+     
+    }
+    img{
+        border: 1px solid black;
+    /* vertical-align:middle; */
+    vertical-align:top;
+    
+}

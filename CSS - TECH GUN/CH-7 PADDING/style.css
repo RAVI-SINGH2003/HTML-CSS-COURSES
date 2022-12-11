@@ -1,0 +1,9 @@
+#div1{
+    border: 2px solid red;
+    /* padding-top: 50px;
+    padding-bottom:20px;
+    padding-right:10%;
+    padding-left:10%; */
+    padding: 25px 30px; /*top-bottom right-left*/
+    padding: 10px 50px 30px 400px; /*top -right-bottom-left*/
+}

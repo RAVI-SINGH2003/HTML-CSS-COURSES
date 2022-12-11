@@ -1,0 +1,28 @@
+/* p::first-letter{
+font-size: 35px;
+color:red;
+} */
+
+
+/* p::first-line{
+font-size: 35px;
+color:red;
+} */
+
+
+h1::before{
+    content:url('photos/photo.png')
+}
+h1::after{
+content: " added after";
+cursor:text;
+}
+
+/* ::selection is a universal pseudo element */
+::selection{
+    color: white;
+    background-color: rgb(5, 94, 5);
+}
+/* NOTES:-
+1.::before and ::after is used to insert content (image or  text ) using css at 
+before and after positions. */ 

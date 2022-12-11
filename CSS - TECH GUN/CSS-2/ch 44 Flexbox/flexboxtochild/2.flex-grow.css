@@ -1,0 +1,49 @@
+.flex-container{
+    background-color: red;
+    display: flex;
+
+
+}
+.flex-child{
+background-color: wheat;
+margin:20px;
+padding:20px;
+width:100px;
+text-align: center;
+}
+
+/* notes
+1.flex-grow: it tells to cover the extra space and in which ratio */ 
+
+/*agar row me space hai to barabar ratio me cover karo using flex-grow=1 all*/
+/* #One{
+
+ flex-grow: 1;
+}
+#Two{
+    flex-grow: 1;
+
+    
+}
+#Three{
+    flex-grow: 1;
+ 
+
+} */
+
+/*Now trying different ratio other than 1 using flexgrow  */
+#One{
+
+ flex-grow: 1;
+}
+#Two{
+    flex-grow: 1;
+
+    
+}
+#Three{
+    flex-grow: 4;
+ 
+
+}
+

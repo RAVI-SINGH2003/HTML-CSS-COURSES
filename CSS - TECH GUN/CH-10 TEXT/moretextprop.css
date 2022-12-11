@@ -1,0 +1,17 @@
+#text{
+    width:200px;
+    height:300px;
+    border: 1px solid red;
+    word-wrap:break-word; /*used when text is greater than container */
+    
+}
+#shadow{
+    font-size: 70px;
+    text-shadow: 5px -10px 6px red; /*horizontal vertical blur color*/
+}
+#newp 
+{ width :500px;
+    border: 1px solid black;
+    writing-mode: vertical-rl; /*writes vertically in right side of cotainer*/
+    writing-mode: vertical-lr; /*writes vertically in left side of cotainer*/
+}

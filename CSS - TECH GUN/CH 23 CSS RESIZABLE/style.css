@@ -1,0 +1,18 @@
+#overflow{
+    background-color:aqua;
+    border: 1px solid red;
+    width:50vw;
+    height:300px;
+    overflow:auto;
+    margin-bottom: 10px;
+   
+    /* RESIZING */
+    resize:vertical;
+    resize:horizontal;
+    resize:both;
+}
+textarea{
+    resize:none
+}
+/* NOTE:- FOR USING resize overflow must not be set to  visible 
+it must be auto , scroll or hidden */

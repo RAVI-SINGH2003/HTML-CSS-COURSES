@@ -1,0 +1,38 @@
+#bg{
+    background-color: yellow;
+    /* background-image: url('pic/img1.jpg'); */
+    background-image: url('pic/sidedesign.png') , url('pic/sidedesign2.png') ;
+
+    background-repeat: no-repeat , no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+
+    
+    background-position:left top , right bottom;
+    /* background-position:cenzzter center; */
+    /* background-position:50px 100px; */
+       /* background-position:5% 10%; */
+
+    /* background-size: 700px 700px; */
+    /* background-size: 50% 50%; */
+    
+    /* background-size: 100% 100%; */                        /*photo will cover the whole div */
+     /* background-size: cover;                           /* background photo will cover whole div but browser may cut the photo while doing so */
+     /* background-size: contain; */
+     
+     background-attachment: fixed;      
+     
+     /* background will not move while scrolling */
+     
+     /* background: #ffffff url('pic/img1.jpg') no-repeat fixed 5% 10%; */      /*short hand for background property = color imageurl repeat attachment size*/
+}
+/* body{
+    background-color: red;  whole body backgroung means page will become red;
+} */
+/* 
+NOTES ; -
+1. IF background-size: 100% 100%; --> background image will cover the whole div but image khich jaegi ya phat jaegi.
+2. If background-size : cover; --> background image kiche gi nahi ya phategi nahi ulta wo badi ho jaegi div ko cover karne ke chhakar me aur isi 
+wajah se wo side se kat bhi sakti :horizontal
+3.IF background-size : conttain ;--> if we want to fill our div using contain then we must make sure that the ratio(width/height=asect ratio) of image is same as div
+other wise it will not fill entire div .Image is case me bhi khichti ya pixelerate nahi hoti; */

@@ -1,0 +1,15 @@
+#green{
+  color:green;  
+}
+#red{
+    color:red;
+
+}
+#inital{
+color: initial; /*initial means default value  like default color of link is blue*/
+}
+#inherit{
+color:inherit; /*inherit property from parent here color is inherited from parent div*/
+}
+/* notes:
+inherit is used more as initial means default only */

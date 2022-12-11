@@ -1,0 +1,22 @@
+#div1{
+    height:100px;
+    width: 100px;
+    background-color: red;
+    margin:200px;
+    /* transition-property: width ,background-color; */
+    /* transition-property: all; */
+    /* transition-delay: 1s; */
+    /* transition-duration: 1s; */
+    /* transition-timing-function: ease-in; */
+
+    /* transition: prop , duration ,timing func,delay; */
+    transition: width 1s ,background-color  10s , height 2s;
+    
+
+
+}
+#div1:hover{
+    width:200px;
+    height: 200px;
+    background-color: blue;
+}

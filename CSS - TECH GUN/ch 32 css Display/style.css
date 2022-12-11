@@ -1,0 +1,19 @@
+/* .display{
+
+    border: 1px solid green;
+    width:30%;
+    height:100px;
+    display:inline;
+} */
+.display{
+
+    border: 1px solid green;
+    width:30%;
+    height:100px;
+    display:inline-block;
+}
+/*ways to vanish a element */
+#div2{
+    /* visibility: hidden; visibility:hidden; means element wahi hai par dikhega nahi */
+    display: none;  /* none means ye pura space leave kar ke chala gaya */
+}

@@ -1,0 +1,20 @@
+#img1{
+    border:2px solid red;
+    width:500px;
+    height:400px;
+    /* below prop are same as background-size; and backround-positon */
+    object-fit: fill; /*default*/
+    object-fit: cover;
+    object-fit: contain;
+    object-position: top center;
+}
+#img2{
+    border:2px solid red;
+    width:500px;
+    height:400px;
+
+    object-fit: fill; /*default*/
+    object-fit: contain;
+    object-fit: cover;
+    object-position: top center;
+}
